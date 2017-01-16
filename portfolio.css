@@ -1,0 +1,121 @@
+body {
+	background: #888888;
+}
+.navbar {
+	border-radius: 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 0px;
+}
+
+.navbar-nav li a {
+	font-size: 25px;
+}
+.port-img img {
+	width: 25em;
+	height: 26em;
+	border-radius: 12em;
+	margin-top: 50px;
+}
+.port-about {
+	margin-top: 8em;
+}
+.port-about span {
+	color: white;
+	font-size: 25px;
+}
+.about-section {
+	border: 1px solid black;
+	background: #AAAAAA;
+	padding-bottom: 35px;
+}
+.portfolio {
+	border: 1px solid black;
+	background: white;
+	padding-bottom: 15px;
+}
+.product-img {
+	margin-top: 30px;
+}
+.care img {
+	height: 21em;
+	width: 20em;
+}
+.demo img {
+	width: 25em;
+}
+.portfolio-heading {
+	padding-top: 15px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+.portfolio-heading span{
+	font-size: 30px;
+	font-family: monospace;
+}
+.contact-form {
+	background: #EEEEEE;
+	border: 1px solid black;
+}
+.input-area {
+	text-align: center;
+}
+.input-area input, textarea{
+	width: 75%;
+	border: none;
+	background: #EEEEEE;
+	border-bottom: 2px solid gray;
+	font-size: 30px;
+	margin: 15px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+}
+.input-area input:focus, textarea:focus {
+	border-bottom: 2px solid #51CBEE;
+	outline: none;	
+
+}
+.get-touch p {
+	padding-bottom: 40px;
+}
+.get-touch p, span {
+	width: 65%;
+	padding-top: 12px;
+	font-size: 18px;
+	padding-left: 35px;
+}
+.about-page {
+	border: 1px solid black;
+	background: #AAAAAA;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px; 
+}
+.about-page span {
+	color: #FFFFFF;
+	font-size: 25px;
+	font-family: monospace;
+}
+.about-page .auther {
+	font-size: 20px;
+}
+.social-img img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+}
+.footer {
+	background: #272D45;
+	border: 1px solid black;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.footer span {
+	color: #ffffff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
