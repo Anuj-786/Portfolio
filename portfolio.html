@@ -1,30 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Bootstrap Case</title>
+
+	<title>Portfolio</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- calling the bootstrap library for css -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- calling the jquery for bootstrap -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- calling the bootstrap js -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="portfolio.css">
 </head>
 <body>
+	<!-- bootstrap element for creating navbar in a web page-->
 	<nav class="navbar navbar-inverse">
+		<!-- calling the bootstrap container-fluid element which change the color of navbar -->
 		<div class="container-fluid">
+			<!-- creting unordered list for the menu elements -->
 			<ul class="nav navbar-nav">
+				<!-- menu item and setting the link of target element  -->
 				<li><a href="#">About</a></li>
 				<li><a href="#portfolio">Portfolio</a></li>
 				<li><a href="#contact-form">Contact</a></li>
 			</ul>
 		</div>
 	</nav>
-
+	<!-- container for the whole content of the page and created custom class main-cont for styling purpose only -->
 	<div class="container main-cont">
 		<div class="row justify-content-md-center about-section">
+			<!-- this div is for holding the auther image and col-md-4 for medium screen and col-sm-12 for small screen sizes for shwoing the image in different style in diff screen-->
 			<div class="col-md-4 col-sm-12 port-img">
+				<!-- auther image called from the facebook  -->
 				<img src="https://scontent.fblr1-1.fna.fbcdn.net/v/t1.0-9/313444_217160631758801_799329481_n.jpg?oh=11ff44b01452ffaff4b06061b18d58c6&oe=58DC277A">
 			</div>
+			<!-- this class is for description and col-md-8 for medium screen and port-about is custom class for css purpose-->
 			<div class="col-md-8 port-about">
 				<span>Android app developer and Front-End developer. 
 
@@ -33,12 +44,15 @@
 				<span>Android Experience: </span>
 			</div>
 		</div>
-		
+		<!-- calling row class for creating 12 col grid section -->
 		<div class="row portfolio" id="portfolio">
+			<!-- calling all the 12 coloumn grid for portfolio section and portfolio-heading class for css only -->
 			<div class="col-12 portfolio-heading">
 				<span>PORTFOLIO</span>
 			</div>
+			<!--  this element for products images and custom class product-image -->
 			<div class="col-md-4 product-img">
+				<!--  this is the product image link from the website -->
 				<img src="https://lh6.ggpht.com/IWT-o4WPo_plQX4y8-PNgkNEwxZ1Tr4fbJ3y3UuYJBr63JDWTS9hRfsOleVpTL5OQw=w300-rw">
 				<a href="https://play.google.com/store/apps/details?id=com.avonmobility.jobseekers"></a>
 			</div>
@@ -49,49 +63,65 @@
 				<img src="http://www.cjb-i.co.uk/wp-content/uploads/simulation.jpg">
 			</div>
 		</div>
+		<!-- this row is for contact-form section -->
 		<div class="row contact-form" id="contact-form">
 			<div class="col-12 portfolio-heading">
+				<!-- heading for contact form -->
 				<span>CONTACT ME</span>
 			</div>
+			<!-- this div is for inputs area for medium and small screen sizes -->
 			<div class="col-md-6 col-sm-12 input-area">
-				
+				<!-- input for name -->
 				<input type="text" name="name" placeholder="NAME">
-				
+				<!-- input for email -->
 				<input type="text" name="email" placeholder="EMAIL">
-				
+				<!-- input for number -->
 				<input type="text" name="number" placeholder="PHONE"><br>
+				<!-- input for message -->
 				<textarea placeholder="MESSAGE"></textarea>
 			</div>
+			<!-- this div is for get-touch with two screen sizes -->
 			<div class="col-md-6 col-sm-12 get-touch">
+				<!-- paragraph for get in touch -->
 				<p>Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.</p>
 				<span>I promise to reply A.S.A.P.</span>
 			</div>
 		</div>
 	</div>
+	<!-- this row is for auther about section -->
 	<div class="row about-page">
+		<!-- this is for about auther with two screen sizes -->
 		<div class="col-md-6 col-sm-12 abt-sec">
 			<span>ABOUT THIS PAGE</span><br />
 			<span class="auther">Made by Anuj Thakur</span>
 		</div>
+		<!-- this is for social links images with two screen sizes -->
 		<div class="col-md-6 col-sm-12 social-sec">
 			<span>AROUND THE WEB</span>
+			<!-- this rwo for social images -->
 			<div class="row social-img">
+				<!-- this is for first image of social link -->
 				<div class="col-md-3">
 					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_(square).png/600px-Facebook_logo_(square).png">
 				</div>
+				<!-- this is for second image of social link -->
 				<div class="col-md-3">
 					<img src="http://www.netapp-insight.com/_2016-live/wp-content/uploads/Twitter_Logo_White_On_Blue.png">
 				</div>
+				<!-- this is for third image of social link -->
 				<div class="col-md-3">
 					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREO4e552oe79EOzlrUHvpTL1bv6JMWpklSIG5nc-B-6pwNeb7c">
 				</div>
+				<!-- this is for fourth image of social link -->
 				<div class="col-md-3">
 					<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ3UmvcW3jqTMoFuEHYPTGxbAqmkjY45fxxKjpsiCC9isx2JBQVvA">
 				</div>
 			</div>
 		</div>
 	</div>
+	<!-- this is the footer section of the portfolio page  -->
 	<footer>
+		<!-- this row is for holding the footer content -->
 		<div class="row footer">
 			<span>htch © 2017. All Rights Reversed</span>
 		</div>

@@ -1,65 +1,80 @@
+/*Changing the background color of wgole page i.e body*/
 body {
 	background: #888888;
 }
+/*setting the custom properties for navbar*/
 .navbar {
 	border-radius: 0px;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	margin-bottom: 0px;
 }
-
+/*set font-size for a tag in navbar*/
 .navbar-nav li a {
 	font-size: 25px;
 }
+/*custom css for image*/
 .port-img img {
 	width: 25em;
 	height: 26em;
 	border-radius: 12em;
 	margin-top: 50px;
 }
+/*set top margin for port-about div*/
 .port-about {
 	margin-top: 8em;
 }
+/* custom css for span which is inside port-about class*/
 .port-about span {
 	color: white;
 	font-size: 25px;
 }
+/*custom css for about-section div*/
 .about-section {
 	border: 1px solid black;
 	background: #AAAAAA;
 	padding-bottom: 35px;
 }
+/*custom css for portfolio div*/
 .portfolio {
 	border: 1px solid black;
 	background: white;
 	padding-bottom: 15px;
 }
+/*custom css for product-img div */
 .product-img {
 	margin-top: 30px;
 }
+/*setting the height and width for image that is inside care div*/
 .care img {
 	height: 21em;
 	width: 20em;
 }
+/*setting the height and width for image that is inside demo div*/
 .demo img {
 	width: 25em;
 }
+/*setting the heding styling of portfolio-heading div*/
 .portfolio-heading {
 	padding-top: 15px;
 	text-align: center;
 	padding-bottom: 15px;
 }
+/*style for span element inside portfolio-heading*/
 .portfolio-heading span{
 	font-size: 30px;
 	font-family: monospace;
 }
+/*style for contact-form*/
 .contact-form {
 	background: #EEEEEE;
 	border: 1px solid black;
 }
+/*stteing the input-area div in center*/
 .input-area {
 	text-align: center;
 }
+/*style for input and textarea which inside input-area*/
 .input-area input, textarea{
 	width: 75%;
 	border: none;
@@ -73,20 +88,24 @@ body {
 	-o-transition: all 0.30s ease-in-out;
 	outline: none;
 }
+/*setting the focus styling for input that is inside in inpu-area secction*/
 .input-area input:focus, textarea:focus {
 	border-bottom: 2px solid #51CBEE;
 	outline: none;	
 
 }
+/*style for p element in get-touch class*/
 .get-touch p {
 	padding-bottom: 40px;
 }
+/*styling for p and span element in class get-touch*/
 .get-touch p, span {
 	width: 65%;
 	padding-top: 12px;
 	font-size: 18px;
 	padding-left: 35px;
 }
+/*styling for about-page class*/
 .about-page {
 	border: 1px solid black;
 	background: #AAAAAA;
@@ -94,19 +113,23 @@ body {
 	padding-top: 20px;
 	padding-bottom: 20px; 
 }
+/*style for span element that is inside in about-page class*/
 .about-page span {
 	color: #FFFFFF;
 	font-size: 25px;
 	font-family: monospace;
 }
+/*setting the font-size for the classes about-page and auther*/
 .about-page .auther {
 	font-size: 20px;
 }
+/*style for images that are in scoial-img section*/
 .social-img img {
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
 }
+/*style for footer section */
 .footer {
 	background: #272D45;
 	border: 1px solid black;
@@ -114,6 +137,7 @@ body {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+/*css for span element which is in footer class-*/
 .footer span {
 	color: #ffffff;
 	padding-top: 20px;
